@@ -1,0 +1,116 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+body {
+    background-color: #54B587;
+    font-family: "Courier Prime", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+h3{
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 2em;
+    gap:1em;
+
+}
+
+.title-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title{
+    height:4em;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:1em;
+}
+
+.title-text{
+    padding-top:0.6em;
+    width:80%;
+    font-size:24px;
+}
+
+.subtitle{
+    font-family: "Caveat", serif;
+    font-size:24px;
+}
+
+.cat{
+    width:20%;
+}
+
+.content{
+    width:90%;
+    background-color:#FFF4B5;
+    padding:1em;
+    text-align: center;
+}
+
+.text-1{
+    font-size: 18px;
+}
+
+.qrcode {
+    width: 50%;
+}
+
+.qr{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-gif-container {
+    width: 90%; /* Adjust width as needed */
+    height: 50px; /* Set the height you want to keep visible */
+  
+    position: relative;
+}
+
+.line-gif {
+    width: 100%; /* Adjust width as needed */
+    position: absolute;
+    top: -110px; /* Moves the image up to cut the top */
+    left: 0;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top:-2.4em;
+
+}
+
+.manu{
+    width:100px;
+
+}
+
+.kitty{
+    width:100px;
+ 
+
+}
